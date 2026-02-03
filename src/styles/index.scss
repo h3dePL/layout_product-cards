@@ -6,6 +6,24 @@ body {
   width: 200px;
   height: 408px;
   border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  // margin: 20px auto;
+.board img {
+  width: 80%;
+  object-fit: contain;
+  display: block;
+  padding-top: 30px; //roboczo
+}
+
+.board a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; //roboczo
+  padding-top: 30px; //roboczo
+  padding-left: 10px; //roboczo
+  padding-right: 10px; //roboczo
+  text-align: left;
+  font-size: 12px;
 }
