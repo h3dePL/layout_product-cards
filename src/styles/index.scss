@@ -39,6 +39,12 @@ body {
   color: gray;
 }
 
+.product-reviews {
+  padding-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+
 .stars {
   display: flex;
 }
@@ -60,4 +66,16 @@ body {
 
 .stars--4 .stars__star:nth-child(-n + 4) {
   background-image: url(/src/images/star-active.svg);
+}
+
+.button {
+  display: flex;
+  background-color: cadetblue;
+  border-radius: 5px;
+  height: 40px;
+  width: 166px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
