@@ -44,6 +44,28 @@ body {
   align-items: center;
   gap: 8px;
   padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.product-prices {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.product-price {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.product-price-value {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .product-reviews {
@@ -77,7 +99,7 @@ body {
 
 .button {
   display: flex;
-  background-color: cadetblue;
+  background-color: #609edf;
   border-radius: 5px;
   height: 40px;
   width: 166px;
