@@ -34,13 +34,20 @@ body {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  text-align: left;
+  align-self: flex-start;
   font-size: 10px;
   color: gray;
 }
 
-.product-reviews {
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   padding-top: 10px;
+}
+
+.product-reviews {
+  padding-top: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 10px;
 }
