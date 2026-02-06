@@ -50,7 +50,7 @@ body {
 .product-prices {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 65px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -107,4 +107,11 @@ body {
   align-items: center;
   text-align: center;
   color: white;
+}
+
+.button:hover {
+  background-color: white;
+  border: solid #609edf 1px;
+  cursor: pointer;
+  color: #609edf;
 }
