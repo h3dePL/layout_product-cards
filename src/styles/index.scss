@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap';
 
 body {
   margin: 0;
@@ -24,7 +24,7 @@ body {
 
 .card__name {
   text-decoration: none;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
@@ -34,7 +34,7 @@ body {
 
 .card__code {
   text-decoration: none;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -63,20 +63,20 @@ body {
 
 .card__price {
   text-decoration: none;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
 }
 
 .card__price-value {
   text-decoration: none;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
 
 .card__reviews {
   padding-top: 0;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-size: 10px;
 }
 
@@ -129,7 +129,7 @@ body {
   align-items: center;
   text-align: center;
   color: white;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 .button:hover {
