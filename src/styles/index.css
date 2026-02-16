@@ -1,15 +1,17 @@
-@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap';
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 body {
   margin: 0;
   box-sizing: border-box;
-  box-sizing: inherit;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #000;
 }
 
 .card__inner {
-  width: 200px;
   height: 408px;
-  border: 1px solid #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +26,6 @@ body {
 
 .card__name {
   text-decoration: none;
-  font-family: Roboto, Arial, sans-serif;
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
@@ -34,7 +35,6 @@ body {
 
 .card__code {
   text-decoration: none;
-  font-family: Roboto, Arial, sans-serif;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -65,13 +65,11 @@ body {
 
 .card__price {
   text-decoration: none;
-  font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
 }
 
 .card__price-value {
   text-decoration: none;
-  font-family: Roboto, Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
   padding-left: 10px;
@@ -80,7 +78,6 @@ body {
 
 .card__reviews {
   padding-top: 0;
-  font-family: Roboto, Arial, sans-serif;
   font-size: 10px;
 }
 
@@ -89,7 +86,7 @@ body {
 }
 
 .stars__star {
-  background-image: url('../images/star.svg');
+  background-image: url("../images/star.svg");
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -103,24 +100,24 @@ body {
   margin-right: 0;
 }
 
-.stars--1 .stars__star:nth-child(-n + 1) {
-  background-image: url('../images/star-active.svg');
+.stars--1 .stars__star:nth-child(-n+1) {
+  background-image: url("../images/star-active.svg");
 }
 
-.stars--2 .stars__star:nth-child(-n + 2) {
-  background-image: url('../images/star-active.svg');
+.stars--2 .stars__star:nth-child(-n+2) {
+  background-image: url("../images/star-active.svg");
 }
 
-.stars--3 .stars__star:nth-child(-n + 3) {
-  background-image: url('../images/star-active.svg');
+.stars--3 .stars__star:nth-child(-n+3) {
+  background-image: url("../images/star-active.svg");
 }
 
-.stars--4 .stars__star:nth-child(-n + 4) {
-  background-image: url('../images/star-active.svg');
+.stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url("../images/star-active.svg");
 }
 
-.stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('../images/star-active.svg');
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url("../images/star-active.svg");
 }
 
 .button {

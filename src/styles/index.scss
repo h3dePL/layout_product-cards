@@ -1,15 +1,18 @@
-@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
   margin: 0;
   box-sizing: border-box;
-  box-sizing: inherit;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #000;
 }
 
 .card__inner {
-  width: 200px;
   height: 408px;
-  border: 1px solid #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +27,6 @@ body {
 
 .card__name {
   text-decoration: none;
-  font-family: Roboto, Arial, sans-serif;
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
@@ -34,7 +36,6 @@ body {
 
 .card__code {
   text-decoration: none;
-  font-family: Roboto, Arial, sans-serif;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -65,13 +66,11 @@ body {
 
 .card__price {
   text-decoration: none;
-  font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
 }
 
 .card__price-value {
   text-decoration: none;
-  font-family: Roboto, Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
   padding-left: 10px;
@@ -80,7 +79,6 @@ body {
 
 .card__reviews {
   padding-top: 0;
-  font-family: Roboto, Arial, sans-serif;
   font-size: 10px;
 }
 
