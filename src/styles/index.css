@@ -1,20 +1,5 @@
 @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap';
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-  font-family: Roboto, Arial, sans-serif;
-}
-
 .card {
   width: 200px;
   height: 408px;
@@ -148,6 +133,21 @@ body {
   cursor: pointer;
   color: #609edf;
   text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 /*# sourceMappingURL=index.css.map */

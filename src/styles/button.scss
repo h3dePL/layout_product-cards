@@ -1,0 +1,22 @@
+@import 'variables';
+
+.button {
+  display: flex;
+  background-color: $main-color;
+  border-radius: $button-border-radius;
+  height: $button-height;
+  width: $button-width;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: $main-text-color;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $main-text-color;
+    border: solid $main-color 1px;
+    cursor: pointer;
+    color: $main-color;
+    text-decoration: none;
+  }
+}

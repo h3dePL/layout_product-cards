@@ -1,0 +1,77 @@
+@import 'variables';
+
+.card {
+  width: $card-width;
+  height: $card-height;
+  border: $card-border;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__img {
+    width: 80%;
+    object-fit: contain;
+    display: block;
+    padding-top: $spacing-medium;
+  }
+
+  &__name {
+    text-decoration: none;
+    padding-top: $spacing-medium;
+    padding-left: $spacing-small;
+    padding-right: $spacing-small;
+    text-align: left;
+    font-size: $font-size-md;
+  }
+
+  &__code {
+    text-decoration: none;
+    padding-top: $spacing-small;
+    padding-left: $spacing-small;
+    padding-right: $spacing-small;
+    align-self: flex-start;
+    font-size: $font-size-sm;
+    color: $text-gray;
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+    gap: $star-gap;
+    padding-top: $spacing-small;
+    padding-bottom: $spacing-small;
+    padding-left: $spacing-small;
+    align-self: flex-start;
+  }
+
+  &__prices {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    padding-top: $spacing-small;
+    padding-bottom: $spacing-small;
+    padding-left: $spacing-small;
+    align-self: flex-start;
+  }
+
+  &__price {
+    text-decoration: none;
+    font-size: $font-size-lg;
+  }
+
+  &__price-value {
+    text-decoration: none;
+    font-size: $font-size-xl;
+    font-weight: $font-weight-bold;
+    padding-left: $spacing-small;
+    padding-right: $spacing-small;
+  }
+
+  &__reviews {
+    padding-top: 0;
+    font-size: $font-size-sm;
+  }
+}

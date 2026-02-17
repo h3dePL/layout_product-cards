@@ -1,0 +1,77 @@
+.card {
+  width: 200px;
+  height: 408px;
+  border: 1px solid #000;
+}
+
+.card__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__img {
+  width: 80%;
+  object-fit: contain;
+  display: block;
+  padding-top: 30px;
+}
+
+.card__name {
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.card__code {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-self: flex-start;
+  font-size: 10px;
+  color: gray;
+}
+
+.card__rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  align-self: flex-start;
+}
+
+.card__prices {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  align-self: flex-start;
+}
+
+.card__price {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.card__price-value {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card__reviews {
+  padding-top: 0;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=card.css.map */
