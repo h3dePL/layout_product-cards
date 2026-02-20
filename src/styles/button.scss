@@ -2,21 +2,24 @@
 
 .button {
   display: flex;
-  background-color: $main-color;
-  border-radius: $button-border-radius;
-  height: $button-height;
-  width: $button-width;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  width: $button-width;
+  height: $button-height;
+  border: 1px solid $main-color;
+  border-radius: $button-border-radius;
+  background-color: $main-color;
   text-align: center;
+  line-height: 16px;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
   color: $main-text-color;
   text-decoration: none;
+  text-transform: uppercase;
 
   &:hover {
     background-color: $main-text-color;
-    border: solid $main-color 1px;
-    cursor: pointer;
     color: $main-color;
-    text-decoration: none;
   }
 }

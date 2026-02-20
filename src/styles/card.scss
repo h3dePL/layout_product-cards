@@ -4,74 +4,69 @@
   width: $card-width;
   height: $card-height;
   border: $card-border;
+  border-radius: $card-border-radius;
 
   &__inner {
+    box-sizing: border-box;
+    height: 100%;
+    padding: $card-padding;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   &__img {
-    width: 80%;
+    width: $card-image-width;
+    height: $card-image-height;
     object-fit: contain;
     display: block;
-    padding-top: $spacing-medium;
+    margin: 0 auto $spacing-large;
   }
 
   &__name {
-    text-decoration: none;
-    padding-top: $spacing-medium;
-    padding-left: $spacing-small;
-    padding-right: $spacing-small;
-    text-align: left;
+    margin: 0 0 4px;
+    line-height: 18px;
     font-size: $font-size-md;
+    font-weight: $font-weight-medium;
+    color: $title-color;
   }
 
   &__code {
-    text-decoration: none;
-    padding-top: $spacing-small;
-    padding-left: $spacing-small;
-    padding-right: $spacing-small;
-    align-self: flex-start;
+    margin: 0 0 16px;
+    line-height: 14px;
     font-size: $font-size-sm;
     color: $text-gray;
   }
 
   &__rating {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: $star-gap;
-    padding-top: $spacing-small;
-    padding-bottom: $spacing-small;
-    padding-left: $spacing-small;
-    align-self: flex-start;
+    margin-bottom: 24px;
   }
 
   &__prices {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 65px;
-    padding-top: $spacing-small;
-    padding-bottom: $spacing-small;
-    padding-left: $spacing-small;
-    align-self: flex-start;
+    margin-bottom: 16px;
   }
 
   &__price {
-    text-decoration: none;
-    font-size: $font-size-lg;
+    line-height: 18px;
+    font-size: $font-size-md;
+    color: $text-gray;
   }
 
   &__price-value {
-    text-decoration: none;
+    line-height: 18px;
     font-size: $font-size-xl;
     font-weight: $font-weight-bold;
-    padding-left: $spacing-small;
-    padding-right: $spacing-small;
+    color: $title-color;
   }
 
   &__reviews {
-    padding-top: 0;
+    line-height: 14px;
     font-size: $font-size-sm;
+    color: $title-color;
   }
 }
