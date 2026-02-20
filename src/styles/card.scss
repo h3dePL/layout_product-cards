@@ -1,20 +1,20 @@
 @import 'variables';
 
 .card {
+  box-sizing: border-box;
   width: $card-width;
   height: $card-height;
   border: $card-border;
   border-radius: $card-border-radius;
+  padding: $card-padding;
+  background: #fff;
 
   &__inner {
-    box-sizing: border-box;
-    height: 100%;
-    padding: $card-padding;
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
 
-  &__img {
+  &__img,
+  &__image {
     width: $card-image-width;
     height: $card-image-height;
     object-fit: contain;
@@ -22,7 +22,8 @@
     margin: 0 auto $spacing-large;
   }
 
-  &__name {
+  &__name,
+  &__title {
     margin: 0 0 4px;
     line-height: 18px;
     font-size: $font-size-md;
@@ -37,26 +38,29 @@
     color: $text-gray;
   }
 
-  &__rating {
+  &__rating,
+  &__review-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 24px;
   }
 
-  &__prices {
+  &__prices,
+  &__price-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
   }
 
-  &__price {
+  &__price-label {
     line-height: 18px;
     font-size: $font-size-md;
     color: $text-gray;
   }
 
+  &__price,
   &__price-value {
     line-height: 18px;
     font-size: $font-size-xl;
@@ -64,7 +68,8 @@
     color: $title-color;
   }
 
-  &__reviews {
+  &__reviews,
+  &__review-count {
     line-height: 14px;
     font-size: $font-size-sm;
     color: $title-color;
